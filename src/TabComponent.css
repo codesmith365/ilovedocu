@@ -1,0 +1,47 @@
+.tab-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.tab-header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #ddd;
+}
+
+.tab-item {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-bottom: 3px solid transparent;
+}
+
+.tab-item.active {
+    border-bottom: 3px solid #007bff;
+    font-weight: bold;
+}
+
+.tab-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.content-section {
+    display: flex;
+    align-items: center;
+}
+
+.content-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.content-text {
+    font-size: 16px;
+    text-align: left;
+}
